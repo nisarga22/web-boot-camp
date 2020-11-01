@@ -13,7 +13,7 @@
         <div class="row">
             <div class="col">
                 <img class="profile-icon" src="banglore fc.jpg" alt="BFC logo" height="100px" width="100px">
-                <span class="profile-name">Bangaluru FC</span>
+                <span class="profile-name" id="team-1-name"></span>
                 <div class="row round-runs">
                     <span class="col"><input type="radio" value="radio"></span>
                     <span class="col"><input type="radio" value="radio"></span>
@@ -24,14 +24,14 @@
             </div>
             <div class="col">
                 <div class="row-score">
-                    <span>3</span>
+                    <span id ="team-1-score"></span>
                     <span>-</span>
-                    <span>4</span>
+                    <span id="team-2-score"></span>
                 </div>
             </div>
                     <div class="col">
                         <img class="profile-icon" src="chennai fc.png" alt="CFC logo" height="100px" width="100px">
-                        <span class="profile-name">Chennaiyin FC</span>
+                        <span class="profile-name" id="team-2-name"></span>
                         <div class="row round-runs">
                         <span class="col"><input type="radio" value="radio"></span>
                         <span class="col"><input type="radio" value="radio"></span>
@@ -42,15 +42,15 @@
                 </div>
             </div>
             <div class="row">
-                <button id="bat-button">Goal</button>
+                <button id="bat-button"></button>
             </div>
-            <div class="row">
-                <div class="winner">winner is bfc/cfc</div>
+            <div class="row" id="result" hidden>
+                
             </div>
 
         </div>
     </div>
     
-    
+    <script src="./app.js"></script>
 </body>
 </html>
